@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NDU IKENNA C. | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400&display=swap)" rel="stylesheet">
+  <script src="[kit.fontawesome.com](https://kit.fontawesome.com/a076d05399.js)" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">Ndu Ikenna C.</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h2>Hello, I'm <span>NDU IKENNA C.</span></h2>
+        <p>Aspiring Full-Stack Web Developer</p>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+      <div class="hero-image">
+        <img src="./images/Ikenna Ndu.jpeg" alt="Profile photo of Ndu Ikenna C." />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container about-grid">
+      <div class="about-image">
+        <img src="./images/Ikenna Ndu2.jpeg" alt="Profile photo of Ndu Ikenna C." />
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>I'm a passionate learner eager to build engaging, user-friendly websites. I love turning ideas into reality through clean, efficient code.</p>
+        <p>My background in problem-solving and creativity drives me to continuously explore the world of web technologies.</p>
+        <p>I'm currently learning full-stack development to create interactive and impactful digital experiences.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><i class="fab fa-html5"></i><p>HTML5</p></div>
+        <div class="skill-card"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+        <div class="skill-card"><i class="fab fa-git-alt"></i><p>Git</p></div>
+        <div class="skill-card"><i class="fab fa-github"></i><p>GitHub</p></div>
+        <div class="skill-card"><i class="fas fa-code"></i><p>Flexbox & Grid</p></div>
+        <div class="skill-card"><i class="fas fa-tools"></i><p>VS Code</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="./images/project1.png" alt="Travel Agency Website">
+          <div class="overlay">
+            <h3>Travel Agency Website</h3>
+            <p>A fully responsive landing page for travel services (Coming Soon).</p>
+            <p><strong>Tech:</strong> HTML, CSS</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="./images/project2.jpeg" alt="Restaurant Website">
+          <div class="overlay">
+            <h3>Restaurant Website</h3>
+            <p>Modern restaurant site with menus and gallery (In Progress).</p>
+            <p><strong>Tech:</strong> HTML, CSS, Flexbox</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="./images/project3.jpeg" alt="E-commerce Store">
+          <div class="overlay">
+            <h3>E-commerce Store</h3>
+            <p>An upcoming online store design focused on UX/UI (Upcoming).</p>
+            <p><strong>Tech:</strong> HTML, CSS Grid</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container contact-grid">
+      <div class="contact-form">
+        <h2>Get In Touch</h2>
+        <p>I'd love to connect! Drop me a message below or reach out through social media.</p>
+        <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    <div class="contact-info">
+      <h3>Contact Info</h3>
+      <p>
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:your.email@example.com">nduikenna@gmail.com</a>
+      </p>
+      <p>
+        <i class="fab fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/ikenna-ndu-552a993a9" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
+      </p>
+      <p>
+        <i class="fab fa-github"></i>
+        <a href="https://github.com/kattyndu" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Ndu Ikenna. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
