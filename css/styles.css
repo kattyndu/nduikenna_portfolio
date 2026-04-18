@@ -205,7 +205,27 @@ h2 {
   border-color: #0077ff;
 }
 .contact-info p {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-info i {
+  color: #0077ff;
+  font-size: 1.2rem;
+  min-width: 20px;
+}
+
+.contact-info a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+  word-break: break-all;
+}
+
+.contact-info a:hover {
+  color: #0077ff;
 }
 
 /* Footer */
