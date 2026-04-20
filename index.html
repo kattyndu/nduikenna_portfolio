@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NDU IKENNA C. | Portfolio</title>
-  <link rel="stylesheet" href="./css/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ndu Ikenna C. | Portfolio</title>
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="./images/Ikenna Ndu.jpeg">  
+   
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/e7d89aa0d7.js" crossorigin="anonymous"></script>
+
+  <!-- CSS External -->
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 
-  <!-- Navigation Bar -->
+  <!-- ===== Navigation Bar ===== -->
   <header class="navbar">
     <div class="container nav-container">
-      <h1 class="logo">Ndu Ikenna C.</h1>
+      <h1 class="logo">&lt;N.I.C&gt;</h1>
+
+      <!-- CSS-only hamburger -->
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+      <label for="menu-toggle" class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </label>
+
       <nav>
         <ul class="nav-links">
           <li><a href="#hero">Home</a></li>
@@ -27,51 +43,52 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
+  <!-- ===== Hero Section ===== -->
   <section id="hero" class="hero-section">
     <div class="container hero-content">
       <div class="hero-text">
-        <h2>Hello, I'm <span>NDU IKENNA C.</span></h2>
-        <p>Aspiring Full-Stack Web Developer</p>
+        <h2>Hello, I'm <span>Ndu Ikenna C.</span></h2>
+        <p>Aspiring Full-Stack Developer</p>
         <a href="#projects" class="btn">View My Work</a>
       </div>
       <div class="hero-image">
-        <img src="./images/Ikenna Ndu.jpeg" alt="Profile photo of Ndu Ikenna C." />
+        <img src="./images/Ikenna Ndu.jpeg" alt="Profile photo of Ndu Ikenna C.">
       </div>
     </div>
   </section>
 
-  <!-- About Section -->
+  <!-- ===== About Section ===== -->
   <section id="about" class="about-section">
     <div class="container about-grid">
       <div class="about-image">
-        <img src="./images/Ikenna Ndu2.jpeg" alt="Profile photo of Ndu Ikenna C." />
+        <img src="./images/Ikenna Ndu2.jpeg" alt="Photo of Ndu Ikenna C.">
       </div>
       <div class="about-text">
         <h2>About Me</h2>
-        <p>I am a highly motivated and curious individual with a growing passion for technology and digital innovation. I come from a background that values continuous learning, problem-solving, and adaptability. Over time, I have developed a strong interest in how technology shapes everyday experiences, particularly in how websites and applications connect people, businesses, and ideas across the world.</p>
-        <p>My interests lie in creative problem-solving, user experience, and building practical solutions that make processes more efficient and accessible. I am driven by the desire to continuously improve my skills, stay updated with emerging trends, and challenge myself with new learning opportunities. What motivates me most is the ability to turn ideas into functional, real-world solutions that can have a meaningful impact.</p>
-        <p>I am currently learning web development because it combines both creativity and technical skill, allowing me to build interactive and user-friendly digital experiences. The field offers endless opportunities for growth, innovation, and career development. I am particularly drawn to the ability to create from scratch, solve real-world problems, and contribute to the rapidly evolving digital landscape.</p>
+        <p>I'm an enthusiastic web developer with a strong passion for building intuitive, user-friendly, and accessible websites using modern web technologies. I focus on writing clean, maintainable code and creating responsive designs that work seamlessly across different devices and browsers. My approach combines both functionality and aesthetics, ensuring that every project not only performs well but also delivers a smooth and engaging user experience.</p>
+        <p>I genuinely enjoy problem-solving and see challenges as opportunities to grow. Whether it's debugging complex issues, optimizing performance, or implementing new features, I'm always eager to dive in and find effective solutions. I also make it a priority to stay up to date with emerging tools and frameworks, constantly learning and experimenting with creative design ideas that enhance usability and overall user interaction.</p>
+        <p>Currently, I'm actively expanding both my front-end and back-end development skills, working with a variety of technologies to deepen my understanding of how full applications are built and maintained. My goal is to become a well-rounded full-stack developer, capable of handling everything from designing user interfaces to managing databases and server-side logic, while continuously improving my craft and adapting to the ever-evolving tech landscape.</p>
       </div>
     </div>
   </section>
 
-  <!-- Skills Section -->
+  <!-- ===== Skills Section ===== -->
   <section id="skills" class="skills-section">
     <div class="container">
       <h2>My Skills</h2>
       <div class="skills-grid">
         <div class="skill-card"><i class="fab fa-html5"></i><p>HTML</p></div>
         <div class="skill-card"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+        <div class="skill-card"><i class="fas fa-code"></i><p>Flexbox & Grid</p></div>
         <div class="skill-card"><i class="fab fa-git-alt"></i><p>Git</p></div>
         <div class="skill-card"><i class="fab fa-github"></i><p>GitHub</p></div>
-        <div class="skill-card"><i class="fas fa-code"></i><p>Flexbox & Grid</p></div>
         <div class="skill-card"><i class="fas fa-tools"></i><p>VS Code</p></div>
+        <div class="skill-card"><i class="fab fa-chrome"></i><p>Chrome DevTools</p></div>
       </div>
     </div>
   </section>
 
-  <!-- Projects Section -->
+  <!-- ===== Projects Section ===== -->
   <section id="projects" class="projects-section">
     <div class="container">
       <h2>My Projects</h2>
@@ -80,7 +97,7 @@
           <img src="./images/project1.png" alt="Travel Agency Website">
           <div class="overlay">
             <h3>Travel Agency Website</h3>
-            <p>A fully responsive landing page for travel services (Coming Soon).</p>
+            <p>Responsive landing page for a travel company. (Coming Soon)</p>
             <p><strong>Tech:</strong> HTML, CSS</p>
           </div>
         </div>
@@ -88,7 +105,7 @@
           <img src="./images/project2.jpeg" alt="Restaurant Website">
           <div class="overlay">
             <h3>Restaurant Website</h3>
-            <p>Modern restaurant site with menus and gallery (In Progress).</p>
+            <p>A modern restaurant site with menu and gallery. (In Progress)</p>
             <p><strong>Tech:</strong> HTML, CSS, Flexbox</p>
           </div>
         </div>
@@ -96,7 +113,7 @@
           <img src="./images/project3.jpeg" alt="E-commerce Store">
           <div class="overlay">
             <h3>E-commerce Store</h3>
-            <p>An upcoming online store design focused on UX/UI (Upcoming).</p>
+            <p>Fully responsive online shop prototype. (Upcoming)</p>
             <p><strong>Tech:</strong> HTML, CSS Grid</p>
           </div>
         </div>
@@ -104,47 +121,37 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
+  <!-- ===== Contact Section ===== -->
   <section id="contact" class="contact-section">
     <div class="container contact-grid">
       <div class="contact-form">
         <h2>Get In Touch</h2>
-        <p>I'd love to connect! Drop me a message below or reach out through social media.</p>
+        <p>Let's connect — fill out the form below or reach me through social links.</p>
         <form>
           <input type="text" placeholder="Your Name" required>
           <input type="email" placeholder="Your Email" required>
-          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <textarea rows="5" placeholder="Your Message" required></textarea>
           <button type="submit" class="btn">Send Message</button>
         </form>
       </div>
-    <div class="contact-info">
-      <h3>Contact Info</h3>
-      <p>
-        <i class="fas fa-envelope"></i>
-        <a href="mailto:nduikenna@gmail.com">E-mail</a>
-      </p>
-      <p>
-        <i class="fab fa-linkedin"></i>
-        <a href="https://www.linkedin.com/in/ikenna-ndu-552a993a9" target="_blank" rel="noopener noreferrer">
-          LinkedIn
-        </a>
-      </p>
-      <p>
-        <i class="fab fa-github"></i>
-        <a href="https://github.com/kattyndu" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>
-      </p>
+      <div class="contact-info">
+        <h3>Contact Info</h3>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:nduikenna@gmail.com">E-Mail</a></p>
+        <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/ikenna-ndu-552a993a9" target="_blank">LinkedIn</a></p>
+        <p><i class="fab fa-github"></i> <a href="https://github.com/kattyndu" target="_blank">GitHub</a></p>
+      </div>
     </div>
   </section>
 
-  <!-- Footer -->
+  <!-- ===== Footer ===== -->
   <footer class="footer">
-    <p>&copy; <span id="year"></span> Ndu Ikenna. All Rights Reserved.</p>
+    <p>&copy; 2026 Ikenna Ndu. All Rights Reserved.</p>
+    <div class="footer-icons">
+      <a href="mailto:nduikenna@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://linkedin.com/in/ikenna-ndu-552a993a9" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/kattyndu" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
   </footer>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
