@@ -94,6 +94,7 @@ section {
   font-size: 1.8rem;
   cursor: pointer;
   color: #333;
+  margin-left: auto;
 }
 
 .nav-links {
@@ -422,6 +423,10 @@ section {
 @media (max-width: 767px) {
   .menu-icon {
     display: block;
+  }
+  
+  .nav-container {
+    padding: 0 10px;
   }
 
   .nav-links {
